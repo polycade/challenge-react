@@ -34,7 +34,7 @@ The web socket url is `ws://localhost:1337`.
      - `ip_address`
      - `health`
 2. Render a list of machines on the `/machines` route
-   - Layout: <br><img src='./machines-layout.png'>
+   - Match the layout to the best of your ability: <br><img src='./machines-layout.png'>
    - Use data from the machines reducer to render a list view of the machines
    - Each machine list item will render the following data:
      - Name
@@ -43,7 +43,7 @@ The web socket url is `ws://localhost:1337`.
    - Subscribe to updates from the web socket to get the latest `health` for each machine.
    - Clicking the list item for a machine will navigate to `/machines/:machineId`
 3. Render a view for a single machine on the `/machines/:machineId` route
-   - Layout: <br><img src='./machine-layout.png'>
+   - Match the layout to the best of your ability: <br><img src='./machine-layout.png'>
    - Show the following data:
      - Name
      - IP Address
